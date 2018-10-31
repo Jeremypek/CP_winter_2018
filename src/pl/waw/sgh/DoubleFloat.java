@@ -17,8 +17,7 @@ public class DoubleFloat {
         d1.intValue();
 
         // converts primitive to object type. need to do this if havent declare object "Double.valueOf"
-        Double d3 = Double.valueOf(d2)
-
+        //Double d3 = Double.valueOf(d2);
 
     }
 }
