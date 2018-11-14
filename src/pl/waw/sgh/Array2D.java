@@ -11,6 +11,7 @@ public class Array2D {
         //int totalsum = 0;
         //int colsum = 0;
         //int totalcolsum = 0;
+        //test
 
         arr2d[0][0] = 1;
         arr2d[0][2] = 4;
