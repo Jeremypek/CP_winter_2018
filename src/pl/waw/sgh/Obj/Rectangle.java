@@ -27,6 +27,7 @@ public class Rectangle {
         this.parB = parB;
     }
 
+    @Override
     public String toString() {
         return getClass().getSimpleName() + "[" + parA + ", " + parB + "],surf:" + calculateSurface();
     }

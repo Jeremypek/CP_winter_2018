@@ -6,10 +6,11 @@ public class Rectangle extends Shape {
         super(parA, parB);
     }
 
-    double calculateSurface() {
-        return parA * parB;
-    }
-
+    /*
+        double calculateSurface() {
+            return parA * parB;
+        }
+    */
     public void setParB(double parB) {
         this.parB = parB;
     }
