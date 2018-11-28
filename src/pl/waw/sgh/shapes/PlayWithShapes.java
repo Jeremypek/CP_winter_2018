@@ -6,14 +6,19 @@ public class PlayWithShapes {
         Shape shape = new Rectangle(1, 2);
         Shape shape2 = new Circle(4);
         Shape shape3 = new Triangle(2, 4);
+        Shape shape4 = new Triangle(2, 4);
 
-        Shape[] myShapes = new Shape[3];
-        myShapes[0] = shape;
-        myShapes[1] = shape2;
-        myShapes[2] = shape3;
+        Shape[] myShapes = new Shape[]{
+                shape, shape2, shape3, shape4
+        };
 
         for (Shape sh : myShapes) {
             System.out.println(sh);
+            if (sh instanceof PerimeterCalculation) {
+                PerimeterCalculation pm = (PerimeterCalculation) sh;
+                double perim = pm.calculatePerimeter();
+                System.out.println("Perimeter: " + perim);
+            }
         }
     }
 }
