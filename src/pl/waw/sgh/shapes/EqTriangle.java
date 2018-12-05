@@ -1,6 +1,8 @@
 package pl.waw.sgh.shapes;
 
-public abstract class EqTriangle extends AbstractTriangle {
+public class EqTriangle extends AbstractTriangle
+        implements PerimeterCalculation {
+
     public EqTriangle(double parA) {
         super(parA);
     }
@@ -15,5 +17,3 @@ public abstract class EqTriangle extends AbstractTriangle {
         return 3 * parA;
     }
 }
-
-
